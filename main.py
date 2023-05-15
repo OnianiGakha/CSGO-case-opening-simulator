@@ -101,7 +101,7 @@ while True:
         open("inventory.txt","r+").truncate(0)
 
     if inputlol == 'settings':
-        print("type which option you wanna set to 'true' or 'false' or set the number to:\ndisplay the item opened in console (1) is currently: " + displayinconsole + "\nadd the items to inventory(2) is currently: " + writeintextfile)
+        print("type which option you wanna set to 'true' or 'false' or set the number to:\ndisplay the item opened in console (1) is currently: " + str(displayinconsole) + "\nadd the items to inventory(2) is currently: " + str(writeintextfile))
 
         lol = input()
         thesetting = lol.split(" ")
